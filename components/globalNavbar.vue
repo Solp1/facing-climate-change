@@ -1,0 +1,16 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+<v-app-bar elevation="0">
+  <v-spacer></v-spacer>
+  <v-btn text to="/">Home</v-btn>
+  <v-btn text to="/resources">Resources</v-btn>
+  <v-spacer></v-spacer>
+</v-app-bar>
+</template>
+
+<style scoped>
+
+</style>

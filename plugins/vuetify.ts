@@ -4,9 +4,9 @@ import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
 
 const myCustomLightTheme = {
-    dark: false,
+    dark: true,
     colors: {
-        background: '#FFFFFF',
+        background: '#123315',
         surface: '#FFFFFF',
         primary: '#6200EE',
         secondary: '#03DAC6',
@@ -25,8 +25,8 @@ export default defineNuxtPlugin((app) => {
             defaultTheme: 'myCustomLightTheme',
             variations: {
                 colors: ['primary', 'secondary'],
-                lighten: 1,
-                darken: 2,
+                lighten: 4,
+                darken: 4,
             },
             themes: {
                 myCustomLightTheme,

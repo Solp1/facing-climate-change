@@ -45,12 +45,11 @@
         ></v-img>
     </div>
 
-    <v-btn color="secondary-lighten-2" 
-           variant="tonal" 
-           location="center" 
-           @click="$router.push({path: '/resources/ernest'})">
-           Vers Ernest   
-    </v-btn>
-
+    <v-spacer></v-spacer>
+    <v-spacer></v-spacer>
+    
+    <v-card title="Cliquez sur une des images pour en découvrir plus" 
+              variant="tonal">
+    </v-card>
   </v-container>
 </template>

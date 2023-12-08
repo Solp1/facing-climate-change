@@ -12,13 +12,14 @@
       >
         <v-card
             hover
-            height="200px"
+            height="100px"
             :text="resource.description"
             :title="resource.title"
             :to="`/${route.name}/${resource.path}`"
             class="my-3"
             color="primary-lighten-2"
         />
+
       </v-col>
     </v-row>
   </v-container>

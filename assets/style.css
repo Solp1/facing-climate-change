@@ -37,6 +37,7 @@ body {
 }
 
 h1 {
+    position: center;
     font-size: 3.2em;
     line-height: 1.1;
 }
@@ -76,5 +77,11 @@ button:focus-visible {
 .images-container {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    /*gap: 2rem;*/
 }
+
+.v-slider__thumb{
+    cursor:pointer;
+    height:400px;
+    width:400px;
+  }

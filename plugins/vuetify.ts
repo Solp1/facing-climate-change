@@ -9,7 +9,7 @@ const myCustomLightTheme = {
         background: '#030C04',
         surface: '#FFFFFF',
         primary: '#57841F',
-        secondary: '#03DAC6',
+        secondary: '#0EFBE4',
         error: '#B00020',
         info: '#2196F3',
         success: '#4CAF50',

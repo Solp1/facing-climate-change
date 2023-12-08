@@ -6,9 +6,9 @@ import { createVuetify } from 'vuetify'
 const myCustomLightTheme = {
     dark: true,
     colors: {
-        background: '#123315',
+        background: '#030C04',
         surface: '#FFFFFF',
-        primary: '#6200EE',
+        primary: '#57841F',
         secondary: '#03DAC6',
         error: '#B00020',
         info: '#2196F3',

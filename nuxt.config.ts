@@ -19,11 +19,17 @@ export default defineNuxtConfig({
     },
     //...
   ],
+  devtools: false,
   vite: {
     vue: {
       template: {
         transformAssetUrls,
       },
     },
+    server: {
+      watch: {
+        usePolling: true
+      }
+    }
   },
 })

@@ -73,3 +73,8 @@ button:focus-visible {
     text-align: center;
 }
 
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}

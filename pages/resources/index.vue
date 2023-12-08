@@ -1,6 +1,6 @@
 <template>
-  <v-container >
-    <h2>Ressources</h2>
+  <v-container>
+    <h1>Ressources</h1>
 
     <v-row align-content="start">
       <v-col
@@ -11,10 +11,13 @@
           xs="6"
       >
         <v-card
+            hover
+            height="200px"
             :text="resource.description"
             :title="resource.title"
             :to="`/${route.name}/${resource.path}`"
             class="my-3"
+            color="primary-lighten-2"
         />
       </v-col>
     </v-row>
